@@ -20,3 +20,17 @@ s2=85
 r=(s2-s1)/s1
 
 print(f'小明成绩提升了 {r*100:.1f}%')
+
+#请用索引取出下面list的指定元素：
+L = [
+    ['Apple', 'Google', 'Microsoft'],
+    ['Java', 'Python', 'Ruby', 'PHP'],
+    ['Adam', 'Bart', 'Bob']
+]
+
+# 打印Apple:
+print(L[0][0])
+# 打印Python:
+print(L[1][1])
+# 打印Bob:
+print(L[2][2])
